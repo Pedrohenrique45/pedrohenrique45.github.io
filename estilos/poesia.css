@@ -1,0 +1,128 @@
+@charset "UTF-8";
+
+
+body{
+    background-color: #011140;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    max-width: 1200px;
+    margin:0 auto;
+    padding: 20px ;
+    overflow-y: hidden;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#title{
+    flex-direction: column;
+    line-height: 10px;
+}
+li{
+    display: inline-block;
+    margin: 10px;
+}
+a{
+    color: white;
+}
+a:hover{
+    color: #F21905;
+    transition: 0.4s;
+}
+#inscreva-se-bnt{
+    border: 2px solid #F21905;
+    padding: 4px;
+    border-radius: 150px;
+}
+#inscreva-se-bnt:hover{
+   background-color: #F21905;
+   color: white;
+}
+
+h1{
+   font-weight: 100px; 
+}
+main{
+    display: flex;
+    flex-direction: row;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h2{
+    font-size: 50px;
+    line-height: 10px;
+}
+span{
+    color: #F21905;
+}
+p{
+    line-height: 20px;
+    max-width: 500px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+img{
+    width: 580px;
+    
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+form [type="submit"]{
+    height: 50px;
+    width: 40%;
+    background-color: #F21905;
+    color: white;
+    font-weight: bold;
+}
+input{
+    margin-top: 20px;
+    height: 20px;
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+    font-size: 15px;
+}
+form [type="submit"]:hover{
+    cursor: pointer;
+}
+
+
+/* esse é o css do land page e abaixo está o reponsive */
+
+
+@media screen and (max-width: 500px){
+    header{
+     flex-direction: column;
+    }
+    main{
+     flex-direction: column;
+    }
+    h1{
+     text-align: center;
+    }
+    ul{
+     text-align: center;
+    }
+    h2{
+     text-align: center;
+     font-size: 35px;
+    }
+    p{
+     font-size: 15px;
+     text-align: justify;
+    }
+    form{
+     margin: 0 auto;
+    }
+    img{
+     display: none;
+    }
+  
+  }
+ 
+  /* o reponsivo da lading page do meu site */
