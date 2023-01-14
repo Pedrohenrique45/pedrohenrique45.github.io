@@ -95,7 +95,7 @@ form [type="submit"]:hover{
 /* esse é o css do land page e abaixo está o reponsive */
 
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: 580px){
     header{
      flex-direction: column;
     }
@@ -106,7 +106,11 @@ form [type="submit"]:hover{
      text-align: center;
     }
     ul{
+    margin-right: 50px;
      text-align: center;
+    }
+    a{
+        font-size: 15px;
     }
     h2{
      text-align: center;
@@ -126,3 +130,32 @@ form [type="submit"]:hover{
   }
  
   /* o reponsivo da lading page do meu site */
+
+  @media screen and (max-width: 1000px){
+      header{
+        flex-direction: column;
+      }
+      main{
+        flex-direction: column;
+      }
+      h2{
+        font-size: 35px;
+        text-align: center;
+      }
+      p{
+        text-align: justify;
+    
+      }
+      form{
+        margin: 0 auto;
+      }
+      img{
+        display: none;
+      }
+      
+  }
+  @media screen and (max-width: 1300px){
+    h2{
+       font-size: 30px; 
+    }
+  }
