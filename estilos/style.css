@@ -94,9 +94,14 @@ footer>li{
         flex-direction: row;
         margin: 10px;
     }
+    #titulo{
+        font: 13px;
+        padding: 20px;
+    }
     #inscrever{
-        border: none;
-        color: #F21905;
+        border-radius: 10px;
+        padding: 1px;
+        color: white;
         
     }
     #inscrever:hover{
