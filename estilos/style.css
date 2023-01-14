@@ -95,13 +95,12 @@ footer>li{
         margin: 10px;
     }
     #titulo{
-        font: 13px;
-        padding: 20px;
+        border: none;
+        
     }
     #inscrever{
-        border-radius: 10px;
-        padding: 1px;
-        color: white;
+        border: none;
+        color:#011140 ;
         
     }
     #inscrever:hover{
