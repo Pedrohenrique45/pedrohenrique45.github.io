@@ -55,9 +55,9 @@ a:hover{
     padding: 10px 10px 10px;
 }
 .contato{
-    text-align: center;
-    background-color: #011140;
-    margin: 100px;
+    display: inline-block;
+    margin: auto;
+    padding: 100px;
 }
 section{
     padding: 10px 10px 10px;

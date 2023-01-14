@@ -2,7 +2,7 @@
 
 
 body{
-    background-color: white;
+   background-image: linear-gradient(to bottom, #2D458C,#03258C);
     color: black;
     margin: 0 auto;
     padding: 0; 
@@ -15,6 +15,9 @@ header{
     justify-content: space-between;
     padding: 0;
     align-items: center;
+}
+#img01{
+    border: none;
 }
 #titulo{
     flex-direction: column;
@@ -53,16 +56,19 @@ a:hover{
 h2{
      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+hr{
+    border: 1px solid black;
+}
 main{
+    background-color: white;
+    margin: 0 100px 0 100px;
+    padding: 10px;
     text-align: center;
     font-size: 20px;
 }
 article > h1{
     color: black;
     font-size: 40px;
-}
-hr{
-    border: 1px solid;
 }
 footer{
     padding: 2px;
@@ -76,7 +82,7 @@ footer>li{
 
 /* aqui está o css da página inicial do meu site, e logo abaixo o responsivo da mesma*/
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: 580px){
     header{
         text-align: center;
     }
@@ -101,6 +107,7 @@ footer>li{
        
     }
     main{
+        margin: 0 50px 0 50px;
         text-align: center;
     }
     article{
@@ -108,6 +115,9 @@ footer>li{
     }
    footer{
       padding: 5px;
+   }
+   a{
+    text-decoration: none;
    }
    
 
