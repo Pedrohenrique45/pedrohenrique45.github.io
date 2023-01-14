@@ -122,3 +122,10 @@ footer>li{
    
 
 }
+@media screen and (max-width: 320px){
+    #titulo{
+        flex-direction: column;
+        line-height: 5px;
+        margin: 10px;
+    }
+}
