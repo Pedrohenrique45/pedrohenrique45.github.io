@@ -101,9 +101,12 @@ footer>li{
     }
     #inscrever{
         border: none;
-        color:#011140 ;
-        
+        color:white ;
     }
+    #inscrever:hover{
+        transition: 0.4s;
+    }
+
     main{
         margin: 0 50px 0 50px;
         text-align: center;
@@ -125,7 +128,7 @@ footer>li{
     }
     #inscrever{
         border: none;
-        color:#011140 ;
+        color:white ;
         
     }
     
