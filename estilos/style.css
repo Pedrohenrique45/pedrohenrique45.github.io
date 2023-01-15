@@ -82,28 +82,27 @@ footer>li{
 @media screen and (max-width: 580px){
     header{
         text-align: center;
+        flex-direction: column
     }
     div{
         display: flex;
         flex-direction: column;
         border: 2px solid white;
     }
-    li{
-        display: flex;
+    ul{
         flex-direction: row;
-        margin: 5px;
+        padding: 10px;
     }
+   
     #titulo{
         border: none;
+        padding-bottom: 0;
+        
     }
     #inscrever{
         border: none;
         color:#011140 ;
         
-    }
-    #inscrever:hover{
-       background-color: #011140;
-       
     }
     main{
         margin: 0 50px 0 50px;
@@ -115,11 +114,7 @@ footer>li{
    footer{
       padding: 5px;
    }
-   a{
-    display: flex;
-    flex-direction: column;
-    text-decoration: none;
-   }
+   
    
 
 }
