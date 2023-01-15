@@ -91,7 +91,7 @@ footer>li{
     }
     ul{
         flex-direction: row;
-        padding: 10px;
+        padding: 1px;
     }
    
     #titulo{
