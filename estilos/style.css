@@ -34,6 +34,7 @@ div{
     border-radius: 20px;
 }
 h1{
+    text-align: center;
     color: white;
 }  
 li{
@@ -57,24 +58,22 @@ a:hover{
     background-color: #F21905;
     color: white;
 }
-h2{
-     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
 hr{
     border: 1px solid black;
 }
 main{
-    font-family: var(--font01);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: white;
     margin: 0 100px 0 100px;
     padding: 10px;
-    text-align: center;
+    text-align: left;
     font-size: 20px;
 }
 #img01{
     font-family: var(--font);
 }
-main >h2{
+h2{
+    text-align: center;
     font-family: var(--font01);
 }
 article > h1{
@@ -82,12 +81,12 @@ article > h1{
     font-size: 40px;
 }
 footer{
-    padding: 2px;
+    padding: 1px;
     margin: 0;
     background-color: #011140;
 }
 footer>li{
-    margin: 200px
+    margin: 10px;
 }
 
 
@@ -107,7 +106,9 @@ footer>li{
         flex-direction: row;
         padding: 1px;
     }
-   
+    p{
+        text-align: justify;
+    }
     #titulo{
         border: none;
         padding-bottom: 0;
@@ -129,7 +130,7 @@ footer>li{
         text-align: center;
     }
    footer{
-      padding: 5px;
+      padding: 1px;
    }
    
    
