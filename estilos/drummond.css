@@ -99,4 +99,7 @@ footer{
     form{
         display: none;
     }
+    .imagem > p{
+        width: 300px;
+    }
 }
