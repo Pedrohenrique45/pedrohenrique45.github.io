@@ -1,10 +1,12 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family= Poppins: wght @200 & display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 body{
+    font-family: 'Poppins', sans-serif;
     max-width: 1400px;
 }
 header{
@@ -41,10 +43,48 @@ a:hover{
 form{
     padding-top: 30px;
 }
-main{
-    margin: 0px 350px 0px 350px;
-}
 main > h1{
     padding-top: 20px;
     text-align: center;
+}
+hr{
+    border-top: 1px solid #4158D9;
+}
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 50px;
+}
+section > p{
+    font-size: 20px;
+    line-height: 2em;
+    padding-bottom: 1em;
+}
+.imagem{
+    background-color: rgba(63, 60, 60, 0.425);
+    color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.imagem > p{
+    background-color: rgba(15, 14, 14, 0.781);
+    width: 450px;
+    padding: 10px;
+}
+#img01{
+    background-image:url(../imagens/poesia03.jpg) ;
+}
+#img02{
+    background-image: url(../imagens/poesia.jpg);
+}
+.normal > h2{
+     background-image: linear-gradient(to right,#4158D9,#011140);
+}
+footer{
+    background-color: #011140;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
 }
