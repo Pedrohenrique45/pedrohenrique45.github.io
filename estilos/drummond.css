@@ -99,6 +99,9 @@ footer{
     section{
         padding-left: 10px;
     }
+    h2{
+       display: none;
+    }
     form{
         display: none;
     }
