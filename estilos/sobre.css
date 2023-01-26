@@ -62,3 +62,15 @@ figure{
 .programador a{
   color: black;
 }
+
+@media screen and (max-width: 800px){
+  header a{
+    display: none;
+  }
+  main{
+    margin: 0;
+}
+#foto01{
+   width: 0;
+}
+}
