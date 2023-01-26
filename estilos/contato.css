@@ -10,19 +10,15 @@ body{
 header{
     background-color:#011140 ;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
     padding: 0;
     align-items: center;
 }
 #titulo{
-    flex-direction: column;
+    flex-direction: row;
     padding: 10px;
     margin: 10px 20px;
-}
-div{
-    border: 2px solid white;
-    border-radius:20px ;
 }
 #titulo > h1{
     color: white;
@@ -39,15 +35,4 @@ a{
 a:hover{
     color: #F21905;
     transition: 0.4s;
-}
-#inscreva{
-    border: 2px solid #F21905;
-    border-radius: 30px;
-    padding: 3px;
-}
-#inscreva:hover{
-    background-color:#F21905 ;
-    color: white;
-    border: 2px solid #F21905;
-
 }
