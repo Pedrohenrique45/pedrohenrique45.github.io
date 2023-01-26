@@ -33,15 +33,6 @@ a:hover{
     color: #F21905;
     transition: 0.4s;
 }
-#inscreva-se-bnt{
-    padding: 4px;
-    border-radius: 150px;
-}
-#inscreva-se-bnt:hover{
-   background-color: #F21905;
-   color: white;
-}
-
 h1{
    font-weight: 100px; 
 }
@@ -99,6 +90,7 @@ form [type="submit"]:hover{
      flex-direction: column;
     }
     main{
+     align-items: center;
      flex-direction: column;
     }
     h1{
@@ -109,7 +101,7 @@ form [type="submit"]:hover{
      text-align: center;
     }
     li{
-        margin: 4px;
+        margin: 7px;
     }
     a{
         font-size: 15px;
@@ -126,7 +118,10 @@ form [type="submit"]:hover{
      margin: 0 auto;
     }
     img{
-     display: none;
+        width: 300px;
+    }
+    form{
+        display: none;
     }
   
   }
@@ -148,12 +143,8 @@ form [type="submit"]:hover{
         text-align: justify;
     
       }
-      form{
-        margin: 0 auto;
-      }
-      img{
-        display: none;
-      }
+
+      
       
   }
   @media screen and (max-width: 1300px){

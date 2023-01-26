@@ -88,4 +88,10 @@ main h1{
     p{
         font-size: 20px;
     }
+    figure{
+        margin: 40px 0;
+    }
+    h2{
+        margin: 20px 0;
+    }
 }
