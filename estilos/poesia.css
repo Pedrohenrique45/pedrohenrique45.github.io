@@ -109,6 +109,9 @@ form [type="submit"]:hover{
     margin-right: 50px;
      text-align: center;
     }
+    li{
+        margin: 10px;
+    }
     a{
         font-size: 15px;
     }

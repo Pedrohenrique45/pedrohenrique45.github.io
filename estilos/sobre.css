@@ -53,24 +53,16 @@ figure{
   display: flex;
   flex-direction: row;
 }
-.designer a{
-  color: black;
-}
-.poeta a{
-  color: black;
-}
-.programador a{
-  color: black;
-}
 
-@media screen and (max-width: 580px){
-  header a{
-    display: none;
-  }
-  main{
-    margin: 0;
-}
-#foto01{
-   width: 0;
-}
+
+@media  screen and (max-width: 580px) {
+    nav{
+        display: none;
+    }
+    #foto01{
+        display: none;
+    }
+    main{
+        margin: 0;
+    }
 }

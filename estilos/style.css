@@ -109,6 +109,9 @@ footer p{
         flex-direction: row;
         padding: 1px;
     }
+    li{
+        margin: 10px;
+    }
     p{
         line-height: 2em;
         text-align: justify;
@@ -149,6 +152,9 @@ footer p{
         border: none;
         color:white ;
         
+    }
+    li{
+        margin: 2px;
     }
     
 }
