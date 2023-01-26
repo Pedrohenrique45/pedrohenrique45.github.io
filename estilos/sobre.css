@@ -1,50 +1,64 @@
-@charset "UTf-8";
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family= Poppins: wght @200 & display=swap');
 
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
-:root{
-    --cor: #011140;
-    --cor01: #F21905;
+body {
+  font-family: 'Poppins', sans-serif;
 }
 header{
-     background-color: var(--cor);
-     display: flex;
-     flex-direction: row;
-     justify-content: space-between;
-     align-items: center;
+  background-color: #011140;
+  color: white;
+  text-align: center;
+  padding: 30px;
 }
 li{
-    display: inline-block;
-    list-style: none;
-    margin: 10px;
-    font-size: 20px;
+  display: inline-block;
+  margin: 20px;
+}
+h1{
+  padding: 15px 15px 15px 0px;
 }
 a{
-    color: white;
+  color: white;
 }
 a:hover{
-    color: var(--cor01);
-    transition: 0.4s;
+  color: #F21905;
+  transition: 0.4s;
 }
-#inscrever{
-    border: 1px solid var(--cor01);
-    border-radius: 10px;
-    padding: 5px;
+main{
+  margin: 0 300px 0 300px;
 }
-#inscrever:hover{
-    background-color: var(--cor01);
-    color: white;
+.sobre-{
+    display: flex;
+    flex-direction: row;
 }
-div{
-    border: 2px solid white;
-    border-radius: 12px;
-    padding: 10px;
+p{
+  padding: 5px;
+  font-size: 16px;
+  text-align: left;
+  line-height: 1.6em;
 }
-#titulo{
-    flex-direction: column;
-    margin: 10px 40px;
-    color: white;
+#foto01{
+  width: 200px;
+  border-radius: 50%;
+}
+h2{
+  padding-bottom: 20px;
+  padding-top: 50px;
+}
+figure{
+  display: flex;
+  flex-direction: row;
+}
+.designer a{
+  color: black;
+}
+.poeta a{
+  color: black;
+}
+.programador a{
+  color: black;
 }

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poesias autorais</title>
+    <style>
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --cor01:#011140;
+    --cor02:#F21905;
+}
+body{
+    background-image: url(imagens/background002.jpg);
+}
+header{
+    color: white;
+    background-color: var(--cor01) ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+#titulo{
+    padding: 10px;
+    margin: 10px 20px;
+    border: 2px solid white;
+    border-radius: 20px;
+}
+li{
+    display: inline-block;
+    list-style: none;
+    padding: 10px;
+    margin: 10px;
+    font-size: 20px;
+}
+a{
+    color: white;
+}
+a:hover{
+    color: var(--cor02);
+    transition: 0.4s;
+}
+main{
+    margin: 30px 100px 0 100px;
+    background-color: rgba(0, 0, 0, 0.377);
+    padding: 50px;
+    border-radius: 30px;
+}
+h2{
+    padding: 20px;
+    margin: 30px;
+    text-align: center;
+}
+h1{
+    text-align: center;
+}
+@media screen and (max-width:580px) {
+    header{
+        text-align: center;
+        flex-direction: column
+    }
+    div{
+        display: flex;
+        flex-direction: column;
+    }
+    ul{
+        flex-direction: row;
+        padding: 1px;
+    }
+    main{
+        margin: 20px 20px 20px;
+    }
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <div id="titulo">
+            <h1>Prosas &</h1>
+            <h1>Poesias</h1>
+        </div> <!--titulo-->
+        <ul>
+            <a href="prosas.html"><li>Prosa</li></a>
+            <a href="#"><li>Prosas de autores</li></a>
+            <a href="#"><li>Contato</li></a>
+        </ul>
+    </header>
+    <main>
+        <h1>Clique no Link abaixo</h1>
+        <section>
+            <a href="poesias.html">
+                <h2>Poesias autorais</h2>
+            </a>
+            <a href="C.Drummond.html">
+                <h2>Poesias de Carlos Drummond</h2>
+            </a>
+            <a href="marioquitanda.html">
+                <h2>Poesias de Mario Quitanda</h2>
+            </a>
+            <a href="ClariceLispector.html">
+                <h2> Poesias de Clarice Lispector</h2>
+            </a>
+            <a href="cecilia.html">
+                <h2>Poesias de Cecília Meireles</h2>
+            </a>
+            <a href="manuelbandeira.html">
+                <h2>Poesias de Manoel Bandeira</h2>
+            </a>
+        </section>
+    </main>
+</html>

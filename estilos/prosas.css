@@ -15,6 +15,7 @@ header{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .titulo{
     padding: 10px;
@@ -47,4 +48,27 @@ a:hover{
 }
 main{
     margin: 0 100px 0 100px;
+}
+p{
+    line-height: 30px;
+    padding: 10px;
+    font-size: 18px;
+}
+h2{
+    background-image: linear-gradient(to right, #4158D9, rgba(0, 0, 0, 0.034));
+}
+
+@media screen and (max-width:580px) {
+    header{
+        text-align: center;
+        flex-direction: column
+    }
+    div{
+        display: flex;
+        flex-direction: column;
+    }
+    ul{
+        flex-direction: row;
+        padding: 1px;
+    }
 }
